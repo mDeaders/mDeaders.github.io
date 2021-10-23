@@ -1,10 +1,7 @@
 # Install
 
 * Install [python](https://www.python.org/downloads/)
-* Install python dependencies:
-  ```shell
-  pip install -r requirements.txt
-  ```
+* Install python dependencies with `pip install -r requirements.txt`
 
 # Devlopment
 

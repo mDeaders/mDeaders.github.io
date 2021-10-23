@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #545454;
+}
+
+body {
+    background-color: #545454;
+    box-shadow: 0 0 3px rgb(0 0 0 / 20%);
+    color: #f7f5d9;
+    font: 16px/1.5 "Roboto", arial, sans-serif;
+    line-height: 1.5em;
+    margin: auto;
+    width: 1200px;
+}
+
+header {
+    border-top: 3px solid rgba(0,0,0,.2);
+    color: #e6db0e;
+    margin: 0 auto;
+    padding: 25px 15px;
+}
+
+header a {
+    color: #e6db0e;
+    font: bold 33px Ropa Sans;
+    letter-spacing: -.03em;
+}
+header a:hover {
+    color: #000;
+}
+
+nav {
+    background: #f4f4f4;
+    background: url("/img/dark-trans.png") 0px -10px repeat-x,
+        -moz-linear-gradient(center top, #f4f4f4 20%, #ababab 100%);
+    background: url("/img/dark-trans.png") 0px -10px repeat-x,
+        -webkit-gradient(linear, left top, left bottom, color-stop(.2, #f4f4f4), color-stop(1, #ababab));
+    background: url("/img/dark-trans.png") 0px -10px repeat-x,
+        -o-linear-gradient(top, #f4f4f4, #ababab);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ababab');
+    border-color: #ababab;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 30%) inset, 0 0 5px rgb(0 0 0 / 30%) inset, 0 1px 2px rgb(0 0 0 / 29%);
+    vertical-align: baseline;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px 20px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 10px 10px 5px;
+
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    text-shadow: 0 1px 0px #000;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a:link {
+    transition: all 0.1s ease-in;
+}
